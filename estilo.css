@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    text-align: center;
+    /*padding: 5%;*/
+    /*margin: 2%;*/
+}
+.header{
+    margin-bottom: 3%;
+}
+form{
+    font-size: 20px;
+}
+form input{
+    font-size: 18px;
+    outline: none;
+}
+form textarea{
+    outline: none;
+}
+fieldset{
+    border: 1px solid pink;
+    width: 40%;
+}
+.nome, .email{
+    margin: 1%;
+}
+.nome label, .email label{
+    font-weight: bolder;
+}
+.nome input, .email input{
+    height: 25px;
+    width: 200px;
+}
